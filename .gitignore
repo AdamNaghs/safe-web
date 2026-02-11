@@ -1,0 +1,19 @@
+# Ignore everything outside this skill folder
+# This prevents accidental commits of workspace files
+
+# Parent directories (workspace root content)
+../*
+
+# Common workspace files that might accidentally be added
+../.learnings/
+../memory/
+../notes/
+../projects/
+../skills/*/
+!../skills/safe-web/
+
+# Other common files to ignore
+*.pyc
+__pycache__/
+.DS_Store
+*.log
